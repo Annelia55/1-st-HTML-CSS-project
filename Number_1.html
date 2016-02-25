@@ -40,53 +40,13 @@
             color: #5f5b59;
             text-decoration: underline;
         }
-        .gallery {
-            margin-top: 10px;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-        }
         .gallery-item {
             margin: 5px;
         }
         .gallery-item .thumbnail {
             border: 7px ridge;
             border-color: #ffbdb8;
-        }
 
-        /*FOOTER NAVIGATION*/
-
-        .contact-btn {
-            float: right;
-        }
-        .contact-btn a {
-            cursor:copy;
-            margin-right: 30px;
-            padding: 8px 18px;
-            border: 1px solid #204156;
-            position: relative;
-        }
-        .contact-btn a:active {
-            top: 2px;
-        }
-
-        .contact-btn a:hover {
-            color: pink;
-        }
-
-        nav {
-            background-color: white;
-            border-top: 1px dashed black;
-            border-bottom: 1px dashed black;
-            margin: 20px;
-            padding: 20px;
-
-        }
-        nav ul {
-            display: inline;
-        }
-        nav li {
-            display: inline;
         }
         figcaption {
             text-align: center;
@@ -97,61 +57,94 @@
             padding: 3px;
             font-size: 16px;
         }
+        .jumbotron {
+            background-color: #fff9ec;
+        }
+        .row {
+
+        }
     </style>
 </head>
 <body>
-    <header>
+<div class="jumbotron">
+<div class="container">
         <h1>TOP 10: Rarest breeds of cats</h1>
         <p class="intro">Here you'll find photos of 10 of the rarest cats in the world.</p>
-    </header>
+</div>
 
-    <div class="gallery">
-        <figure class="gallery-item">
-        <img class="thumbnail" src="images/Colorpoint_Shorthair.jpg" alt="Colorpoint Shorthair"/>
-            <figcaption>Сolorpoint Shorthair</figcaption>
-        </figure>
-        <figure class="gallery-item">
-        <img class="thumbnail" src="images/Devon_Rex.jpg" alt="Devon Rex">
-            <figcaption>Devon Rex</figcaption>
-        </figure>
-        <figure class="gallery-item">
-        <img class="thumbnail" src="images/Egyptian_Mau.jpg" alt="Egyptian Mau">
-            <figcaption>Egyptian Mau</figcaption>
-        </figure>
-        <figure class="gallery-item">
-        <img class="thumbnail" src="images/Korat.jpg" alt="Korat">
-            <figcaption>Korat</figcaption>
-        </figure>
-        <figure class="gallery-item">
-        <img class="thumbnail" src="images/Kurilian_Bobtail.jpg" alt="Kurilian Bobtail">
-            <figcaption>Kurilian Bobtail</figcaption>
-        </figure>
-        <figure class="gallery-item">
-        <img class="thumbnail" src="images/Norwegian_Forest_Cat.jpg" alt="Norwegian Forest Cat">
-            <figcaption>Norwegian Forest Cat</figcaption>
-        </figure>
-        <figure class="gallery-item">
-        <img class="thumbnail" src="images/Singapura.jpg" alt="Singapura">
-            <figcaption>Singapura</figcaption>
-        </figure>
-        <figure class="gallery-item">
-        <img class="thumbnail" src="images/Sphynx.jpg" alt="Sphynx">
-            <figcaption>Sphynx</figcaption>
-        </figure>
-        <figure class="gallery-item">
-        <img class="thumbnail" src="images/Tonkinese.jpg" alt="Tonkinese">
-            <figcaption>Tonkinese</figcaption>
-        </figure>
-        <figure class="gallery-item">
-        <img class="thumbnail" src="images/Turkish_Angora.jpg" alt="Turkish Angora">
-            <figcaption>Turkish Angora</figcaption>
-        </figure>
+    <div class="row">
+        <div class="col-md-4">
+            <figure class="gallery-item">
+                <img class="thumbnail img-responsive center-block" src="images/Colorpoint_Shorthair.jpg" alt="Colorpoint Shorthair"/>
+                <figcaption>Сolorpoint Shorthair</figcaption>
+            </figure>
+        </div>
+        <div class="col-md-4">
+            <figure class="gallery-item">
+                <img class="thumbnail img-responsive center-block" src="images/Devon_Rex.jpg" alt="Devon Rex">
+                <figcaption>Devon Rex</figcaption>
+            </figure>
+        </div>
+        <div class="col-md-4">
+            <figure class="gallery-item">
+                <img class="thumbnail img-responsive center-block" src="images/Egyptian_Mau.jpg" alt="Egyptian Mau">
+                <figcaption>Egyptian Mau</figcaption>
+            </figure>
+        </div>
+
+
+        <div class="clearfix"></div>
+            <div class="col-md-3">
+                <figure class="gallery-item">
+                    <img class="thumbnail img-responsive center-block" src="images/Korat.jpg" alt="Korat">
+                    <figcaption>Korat</figcaption>
+                </figure>
+            </div>
+            <div class="col-md-3">
+                <figure class="gallery-item">
+                <img class="thumbnail img-responsive center-block" src="images/Kurilian_Bobtail.jpg" alt="Kurilian Bobtail">
+                <figcaption>Kurilian Bobtail</figcaption>
+                </figure>
+            </div>
+            <div class="col-md-3">
+                <figure class="gallery-item">
+                    <img class="thumbnail img-responsive center-block" src="images/Norwegian_Forest_Cat.jpg" alt="Norwegian Forest Cat">
+                    <figcaption>Norwegian Forest Cat</figcaption>
+                </figure>
+            </div>
+            <div class="col-md-3">
+                <figure class="gallery-item">
+                    <img class="thumbnail img-responsive center-block" src="images/Singapura.jpg" alt="Singapura">
+                    <figcaption>Singapura</figcaption>
+                </figure>
+            </div>
+
+
+
+        <div class="col-md-4">
+            <figure class="gallery-item">
+                <img class="thumbnail img-responsive center-block" src="images/Sphynx.jpg" alt="Sphynx">
+                <figcaption>Sphynx</figcaption>
+            </figure>
+        </div>
+        <div class="col-md-4">
+            <figure class="gallery-item">
+                <img class="thumbnail img-responsive center-block" src="images/Tonkinese.jpg" alt="Tonkinese">
+                <figcaption>Tonkinese</figcaption>
+            </figure>
+        </div>
+        <div class="col-md-4">
+            <figure class="gallery-item">
+                <img class="thumbnail img-responsive center-block" src="images/Turkish_Angora.jpg" alt="Turkish Angora">
+                <figcaption>Turkish Angora</figcaption>
+            </figure>
+        </div>
     </div>
 
     <footer class="container">
         <div class="row">
-            <figure class="col-sm-6 сol-sm-6">
-                <p class="col-sm-6">&copy; Bezrukova Anna 2016</p>
+            <figure class="col-sm-12">
+                <p>&copy; Bezrukova Anna 2016</p>
             </figure>
             <figure>
 </body>
