@@ -30,6 +30,11 @@ ul {
     border: 2px ridge #ffbdb8;
     margin: 20px 55px 25px 55px;
 }
+span {
+    font-size: 18px;
+    text-align: center;
+    font-family: cursive;
+}
 .creator {
     margin-left: 10px;
     margin-top: 55px;
