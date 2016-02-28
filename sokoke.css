@@ -1,0 +1,26 @@
+body{
+    font-family:'Indie Flower', serif;
+    background-size: cover;
+
+}
+h1 {
+    font-family: 'Indie Flower', serif;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: -18px;
+
+}
+.jumbotron {
+    background-color: #fff9ec;
+    display: block;
+    border: 3px dashed;
+    border-color: #ffbdb8;
+}
+img {
+    border: 7px ridge;
+    border-color: #ffbdb8;
+}
+.creator {
+    margin-left: 10px;
+    margin-top: 55px;
+}
