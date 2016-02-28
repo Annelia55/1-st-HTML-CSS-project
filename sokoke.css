@@ -7,8 +7,11 @@ h1 {
     font-family: 'Indie Flower', serif;
     font-size: 40px;
     text-align: center;
-    margin-bottom: -18px;
+    margin-top: -30px;
 
+}
+h3 {
+    text-align: center;
 }
 .jumbotron {
     background-color: #fff9ec;
@@ -16,10 +19,15 @@ h1 {
     border: 3px dashed;
     border-color: #ffbdb8;
 }
-img {
-    border: 7px ridge;
+.thumbnail {
+    border: 5px ridge;
     border-color: #ffbdb8;
+    margin-bottom: 10px;
 }
+.move {
+    margin-top: 40px;
+}
+
 .creator {
     margin-left: 10px;
     margin-top: 55px;
