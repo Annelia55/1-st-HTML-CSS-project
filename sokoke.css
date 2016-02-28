@@ -16,18 +16,20 @@ h3 {
 .jumbotron {
     background-color: #fff9ec;
     display: block;
-    border: 3px dashed;
-    border-color: #ffbdb8;
+    border: 3px dashed #ffbdb8;
 }
 .thumbnail {
-    border: 5px ridge;
-    border-color: #ffbdb8;
+    border: 5px ridge #ffbdb8;
     margin-bottom: 10px;
 }
 .move {
     margin-top: 40px;
 }
-
+ul {
+    font-size: 20px;
+    border: 2px ridge #ffbdb8;
+    margin: 20px 55px 25px 55px;
+}
 .creator {
     margin-left: 10px;
     margin-top: 55px;
