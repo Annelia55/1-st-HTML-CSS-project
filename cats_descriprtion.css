@@ -36,6 +36,9 @@ span {
     text-align: center;
     font-family: cursive;
 }
+.likebtn-wrapper {
+    float: right;
+}
 .creator {
     margin-left: 10px;
     margin-top: 55px;
