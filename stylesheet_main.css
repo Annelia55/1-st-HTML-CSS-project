@@ -1,88 +1,88 @@
-    body {
-        font-size: 18px;
-        font-family:'Indie Flower', serif;
-        background-size: cover;
+body {
+    font-size: 18px;
+    font-family:'Indie Flower', serif;
+    background-size: cover;
+    background-color: #fff9ec;
+}
+
+h1 {
+    font-family: 'Indie Flower', serif;
+    font-size: 60px;
+    text-align: center;
+    border: 3px dashed;
+    border-color: #ffbdb8;
+    background-color: #fefefe;
+    padding: 20px;
+    margin-bottom: 30px;
+    margin-top: -10px;
+
+}
+
+h4 {
+    text-decoration: underline;
+    margin-bottom: -10px;
+}
+
+.gallery-item {
+    margin: 5px;
+}
+
+.gallery-item .thumbnail {
+    border: 7px ridge;
+    border-color: #ffbdb8;
+}
+
+figcaption {
+    text-align: center;
+    background-color: white;
+    border: 1px solid #eea6a7;
+    margin-top: -22px;
+    margin-bottom: 15px;
+    padding: 3px;
+    font-size: 16px;
+    font-family: 'Indie Flower', serif;
+
+}
+.jumbotron {
+    background-color: #fff9ec;
+}
+
+/* Pulse Grow button */
+@-webkit-keyframes hvr-pulse-grow {
+    to {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+}
+
+@keyframes hvr-pulse-grow {
+    to {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
         background-color: #fff9ec;
     }
-
-    h1 {
-        font-family: 'Indie Flower', serif;
-        font-size: 60px;
-        text-align: center;
-        border: 3px dashed;
-        border-color: #ffbdb8;
-        background-color: #fefefe;
-        padding: 20px;
-        margin-bottom: 30px;
-        margin-top: -10px;
-
-    }
-
-    h4 {
-        text-decoration: underline;
-        margin-bottom: -10px;
-    }
-
-    .gallery-item {
-        margin: 5px;
-    }
-
-    .gallery-item .thumbnail {
-        border: 7px ridge;
-        border-color: #ffbdb8;
-    }
-
-    figcaption {
-        text-align: center;
-        background-color: white;
-        border: 1px solid #eea6a7;
-        margin-top: -22px;
-        margin-bottom: 15px;
-        padding: 3px;
-        font-size: 16px;
-        font-family: 'Indie Flower', serif;
-
-    }
-    .jumbotron {
-        background-color: #fff9ec;
-    }
-
-    /* Pulse Grow button */
-    @-webkit-keyframes hvr-pulse-grow {
-        to {
-            -webkit-transform: scale(1.1);
-            transform: scale(1.1);
-        }
-    }
-
-    @keyframes hvr-pulse-grow {
-        to {
-            -webkit-transform: scale(1.1);
-            transform: scale(1.1);
-            background-color: #fff9ec;
-        }
-    }
-    .hvr-pulse-grow {
-        display: inline-block;
-        vertical-align: middle;
-        -webkit-transform: translateZ(0);
-        transform: translateZ(0);
-        box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-        -webkit-backface-visibility: hidden;
-        backface-visibility: hidden;
-        margin-top: 6px;
-        margin-bottom: 6px;
-        -moz-osx-font-smoothing: grayscale;
-    }
-    .hvr-pulse-grow:hover, .hvr-pulse-grow:focus, .hvr-pulse-grow:active {
-        -webkit-animation-name: hvr-pulse-grow;
-        animation-name: hvr-pulse-grow;
-        -webkit-animation-duration: 0.3s;
-        animation-duration: 0.3s;
-        -webkit-animation-timing-function: linear;
-        animation-timing-function: linear;
-        -webkit-animation-iteration-count: infinite;
-        animation-iteration-count: infinite;
-        -webkit-animation-direction: alternate;
-        animation-direction: alternate;
-    }
+}
+.hvr-pulse-grow {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    -moz-osx-font-smoothing: grayscale;
+}
+.hvr-pulse-grow:hover, .hvr-pulse-grow:focus, .hvr-pulse-grow:active {
+    -webkit-animation-name: hvr-pulse-grow;
+    animation-name: hvr-pulse-grow;
+    -webkit-animation-duration: 0.3s;
+    animation-duration: 0.3s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+}
