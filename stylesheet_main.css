@@ -47,11 +47,6 @@
         background-color: #fff9ec;
     }
 
-    .creator {
-        margin-left: 10px;
-        margin-top: 55px;
-    }
-
     /* Pulse Grow button */
     @-webkit-keyframes hvr-pulse-grow {
         to {
