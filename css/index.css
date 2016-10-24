@@ -5,6 +5,10 @@ body {
     background-color: #fff9ec;
 }
 
+.jumbotron {
+    background-color: #fff9ec;
+}
+
 h1 {
     font-family: 'Indie Flower', serif;
     font-size: 60px;
@@ -15,7 +19,6 @@ h1 {
     padding: 20px;
     margin-bottom: 30px;
     margin-top: -10px;
-
 }
 
 h4 {
@@ -41,10 +44,6 @@ figcaption {
     padding: 3px;
     font-size: 16px;
     font-family: 'Indie Flower', serif;
-
-}
-.jumbotron {
-    background-color: #fff9ec;
 }
 
 /* Pulse Grow button */
@@ -85,4 +84,18 @@ figcaption {
     animation-iteration-count: infinite;
     -webkit-animation-direction: alternate;
     animation-direction: alternate;
+}
+
+/* @media */
+@media screen and (max-width: 991px) {
+    .container h1 {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .container h1 {
+        font-size: 40px;
+        padding: 10px;
+    }
 }
